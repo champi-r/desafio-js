@@ -58,6 +58,8 @@ function listarEventos(eventos){
     return listado;
 }
 
+
+/*
 function Compra (id, evento, fecha, precio, cantidad){
     this.id = id;
     this.evento = evento;
@@ -74,4 +76,4 @@ function total (x){
     } else {
         alert('Compra cancelada');
     }
-}
+}*/
