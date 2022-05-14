@@ -56,6 +56,7 @@ function listarEventos(eventos){
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
 function Compra (id, evento, fecha, precio, cantidad){
@@ -65,6 +66,8 @@ function Compra (id, evento, fecha, precio, cantidad){
     this.precio = precio;
     this.cantidad = cantidad;
 =======
+=======
+>>>>>>> desafio3
 =======
 >>>>>>> desafio3
 function listarFechasEvento(eventos, id){
@@ -77,6 +80,9 @@ function listarFechasEvento(eventos, id){
     })
     return listado
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> desafio3
+=======
 >>>>>>> desafio3
 =======
 >>>>>>> desafio3
@@ -84,7 +90,11 @@ function listarFechasEvento(eventos, id){
 
 function total (x){
     let total = x.precio * x.cantEntradas;
+<<<<<<< HEAD
     let aceptacion = confirm(`Evento: ${x.evento} \nFecha: ${x.fechaElegida} \nCantidad entradas: ${x.cantEntradas} \nValor Unidad: ${x.precio} \nTOTAL= ${total}\n ¿Estas seguro?`);
+=======
+    let aceptacion = confirm(`Evento: ${x.evento} \nFecha: ${x.fechaElegida} \nCantidad entradas: ${x.cantEntradas} \nValor Unidad: ${x.precio} \nTOTAL= ${total} \n¿Estas seguro?`);
+>>>>>>> desafio3
     if(aceptacion){
         alert('Compra exitosa');
     } else {
