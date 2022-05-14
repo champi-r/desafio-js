@@ -55,6 +55,7 @@ function listarEventos(eventos){
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
 function Compra (id, evento, fecha, precio, cantidad){
@@ -64,6 +65,8 @@ function Compra (id, evento, fecha, precio, cantidad){
     this.precio = precio;
     this.cantidad = cantidad;
 =======
+=======
+>>>>>>> desafio3
 function listarFechasEvento(eventos, id){
     let listado = "";
     let i = 0;
@@ -73,6 +76,9 @@ function listarFechasEvento(eventos, id){
         listado = listado + itemList;
     })
     return listado
+<<<<<<< HEAD
+>>>>>>> desafio3
+=======
 >>>>>>> desafio3
 }
 
