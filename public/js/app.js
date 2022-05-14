@@ -53,3 +53,24 @@ function listarEventos(eventos){
     })
     return listado;
 }
+
+function listarFechasEvento(eventos, id){
+    let listado = "";
+    let i = 0;
+    eventos[id].fecha.forEach( (fe) => {
+        i=i+1;
+        let itemList = (i + "-" + fe + "\n");
+        listado = listado + itemList;
+    })
+    return listado
+}
+
+function total (x){
+    let total = x.precio * x.cantEntradas;
+    let aceptacion = confirm(`Evento: ${x.evento} \nFecha: ${x.fechaElegida} \nCantidad entradas: ${x.cantEntradas} \nValor Unidad: ${x.precio} \nTOTAL= ${total} \n¿Estas seguro?`);
+    if(aceptacion){
+        alert('Compra exitosa');
+    } else {
+        alert('Compra cancelada');
+    }
+}
